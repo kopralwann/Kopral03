@@ -4,6 +4,8 @@ main = "src/index.js"
 compatibility_date = "2024-07-24"
 compatibility_flags = ["nodejs_compat"]
 
-kv_namespaces = [
-  { binding = "Kopral03", id = "1234" }
-]
+[vars]
+# PROXYIP = "211.230.110.231:50008"
+UUID = "55eb51d0-cb3b-4214-82d0-4247ac1b5c6f"
+# SOCKS5 = "127.0.0.1:1080"
+# SOCKS5_RELAY = "true"
